@@ -1,0 +1,48 @@
+<!--index.html-->
+ 
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/csstyles.css" />
+    <title> Quiz</title>
+</head>
+ 
+<body>
+<hr>
+   <h1>Sing In</h1>
+    <form action="/src/option.html" method="get">
+        <div class="imgcontainer">
+          <img src="/src/images/Quiz-Logo.webp" alt="logo" class="logo">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login<a href="/src/option.html"></a></button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+          <hr>
+          <span class="create">account <a href="/src/account.html">Don't have an account? Sign up</a></span>
+        </div>
+
+      </form>
+      <hr>
+      <footer>
+        <p>&copy;<span id="year"></span> by Blandine Bukasa Lusamba 🌸 South Africa| <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p id="lastModified"></p>
+      </footer>
+    <script src="./src/js/button.js" type="module"></script>
+</body>
+</html>
