@@ -6,17 +6,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/csstyles.css" />
+    <link rel="stylesheet" href="./src/styles/csstyles.css" />
     <title> Quiz</title>
 </head>
 <body>   <div>
           <div class="imgcontainer">
-            <img src="../images/Quiz-Logo.webp" alt="logo" class="logo">
+            <img src="./images/Quiz-Logo.webp" alt="logo" class="logo">
           </div>
           <hr>
           <div id="page1">
             <h1>LogIn</h1> 
-            <form action="./quiz.html"   onsubmit="return validateLoginForm()">
+            <form action="/src/quiz.html"   onsubmit="return validateLoginForm()">
               <div class="container">
                 <label for="uname" id="login-username"><b>Username</b></label>
                 <input type="text" placeholder="Enter Username" name="uname" required>
@@ -24,7 +24,7 @@
                 <label for="psw" id="login-password"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
             
-                <button type="submit">Login<a href="./quiz.html"></a></button>
+                <button type="submit">Login<a href="./src/quiz.html"></a></button>
                 <label>
                   <input type="checkbox"checked="checked"name="remember"><br> Remember me
                 </label>
@@ -33,7 +33,7 @@
                 <button type="button" class="cancelbtn">Cancel</button>
                 <span class="psw">Forgot <a href="#">password?</a></span>
                 <hr>
-                <span class="create"><a href="./singin.html">Don't have an account? Sign up</a></span>
+                <span class="create"><a href="./src/singin.html">Don't have an account? Sign up</a></span>
               </div>
       
             </form>
