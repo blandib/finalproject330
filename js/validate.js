@@ -68,3 +68,6 @@ function validateLoginForm() {
     // Additional validation logic if needed
     return true;
 }
+
+let date = document.lastModified;
+document.getElementById("lastModified").innerHTML = "Last motifified on :" + date;
