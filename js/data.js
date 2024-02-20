@@ -33,7 +33,7 @@ const quizArray = [
         id: "2",
         question: "what is the most populated country in africa?",
         options: ["Ethiopia", "DR Congo", "	Nigeria", "Egypt"],
-        correct: "	Nigeria",
+        correct: "Nigeria",
     },
     {
         id: "3",
@@ -45,7 +45,7 @@ const quizArray = [
         id: "4",
         question: "What is the world biggest forest?",
         options: ["Amazon Rainforest", "Valdivian Temperate", "Rainforest of Xishuangbanna", "Equatorial forest of drcongo"],
-        correct: "Amazon",
+        correct: "Amazon Rainforest",
     },
     {
         id: "5",
